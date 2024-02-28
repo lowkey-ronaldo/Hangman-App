@@ -9,7 +9,7 @@ public class Main {
         HangmanApp hangmanApp = new HangmanApp();
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Hangman Game");
+        System.out.println("\nHangman Game");
 
         while (true) {
             while (hangmanApp.getNumAttempts() < hangmanApp.getMaxAttempts() && !hangmanApp.getIsTrovato()) {
